@@ -1,8 +1,0 @@
-gitignore
-**/bin/
-**/obj/
-**/.vscode/
-/bin/
-/obj/
-/.vscode/
-.vscode/
