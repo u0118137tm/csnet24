@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "70hsPCc4SYk=",
+  "dgSpecHash": "j7n82PBp5IQ=",
   "success": true,
-  "projectFilePath": "c:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Console\\Console.csproj",
+  "projectFilePath": "C:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Console\\Console.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\u0118137\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Frontend\\Frontend.csproj": {}
+    "C:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Frontend\\Frontend.csproj": {}
   },
   "projects": {
-    "c:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Backend\\Backend.csproj": {
+    "C:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Backend\\Backend.csproj",
+        "projectUniqueName": "C:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "c:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Backend\\Backend.csproj",
+        "projectPath": "C:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Backend\\Backend.csproj",
         "packagesPath": "C:\\Users\\u0118137\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Backend\\obj\\",
+        "outputPath": "C:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "c:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Frontend\\Frontend.csproj": {
+    "C:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Frontend\\Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Frontend\\Frontend.csproj",
+        "projectUniqueName": "C:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Frontend\\Frontend.csproj",
         "projectName": "Frontend",
-        "projectPath": "c:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Frontend\\Frontend.csproj",
+        "projectPath": "C:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Frontend\\Frontend.csproj",
         "packagesPath": "C:\\Users\\u0118137\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Frontend\\obj\\",
+        "outputPath": "C:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -98,8 +98,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "c:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Backend\\Backend.csproj": {
-                "projectPath": "c:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Backend\\Backend.csproj"
+              "C:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Backend\\Backend.csproj": {
+                "projectPath": "C:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Backend\\Backend.csproj"
               }
             }
           }

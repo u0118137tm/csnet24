@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Console\\Console.csproj",
+      "projectUniqueName": "C:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Console\\Console.csproj",
       "projectName": "Console",
-      "projectPath": "c:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Console\\Console.csproj",
+      "projectPath": "C:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Console\\Console.csproj",
       "packagesPath": "C:\\Users\\u0118137\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Console\\obj\\",
+      "outputPath": "C:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Console\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,8 +59,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "c:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Backend\\Backend.csproj": {
-              "projectPath": "c:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Backend\\Backend.csproj"
+            "C:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Backend\\Backend.csproj": {
+              "projectPath": "C:\\Users\\u0118137\\OneDrive - Thomas More\\ThomasMore\\C#\\2024-2025\\exmples\\lab\\MyBank - 01 - Basic Classes\\Backend\\Backend.csproj"
             }
           }
         }

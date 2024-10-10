@@ -1,0 +1,653 @@
+Info: New bank created
+Info: New customer created: {"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}
+Info: New customer created: {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00"}
+Info: New CurrentAccount created {"BankCards":[],"AccountNumber":"7618627171","Balance":0,"Customers":[]}
+Info: New CurrentAccount created {"BankCards":[],"AccountNumber":"4602675782","Balance":0,"Customers":[]}
+Info: Customer added to account: {"AccountNumber":"7618627171","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}]}
+Info: Customer added to account: {"AccountNumber":"1238878028","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}]}
+Info: Customer added to account: {"AccountNumber":"1238878028","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"},{"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00"}]}
+Info: CurrentAccount number 1234567890 is valid
+Error: CurrentAccount number 8888888888 is not valid
+Error: CurrentAccount number 12345 is not valid
+Info: SavingAccount number 1234567890 is valid
+Info: SavingAccount number 8888888888 is valid
+Error: SavingAccount number 12345 is not valid
+Info: New CreditCard created: {"Balance":0,"CardNumber":"50486660","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}}
+Info: New BankCard created: {"CardNumber":"48169526","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}}
+Info: New BankCard added to account {"BankCards":[{"CardNumber":"48169526","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}}],"AccountNumber":"7618627171","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}]}
+Error: Customer has no access to CurrentAccount, BankCard not added {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00"}
+Info: 100 deposited to account {"BankCards":[{"CardNumber":"48169526","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}}],"AccountNumber":"7618627171","Balance":100,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}]}
+Info: 80 widthdrawn from account {"BankCards":[{"CardNumber":"48169526","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}}],"AccountNumber":"7618627171","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}]}
+Error: CurrentAccount cannot be removed when balance is not 0: {"BankCards":[{"CardNumber":"48169526","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}}],"AccountNumber":"7618627171","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}]}
+Error: 30 cannot be widthdrawn from account {"BankCards":[{"CardNumber":"48169526","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}}],"AccountNumber":"7618627171","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}]}
+Info: 20 widthdrawn from account {"BankCards":[{"CardNumber":"48169526","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}}],"AccountNumber":"7618627171","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}]}
+Info: CurrentAccount removed: {"BankCards":[{"CardNumber":"48169526","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}}],"AccountNumber":"7618627171","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}]}
+Error: 20 cannot be widthdrawn from card {"Balance":0,"CardNumber":"50486660","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}}
+Info: New bank created
+Info: New customer created: {"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}
+Info: New customer created: {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00"}
+Info: New CurrentAccount created {"BankCards":[],"AccountNumber":"5832053436","Balance":0,"Customers":[]}
+Info: New CurrentAccount created {"BankCards":[],"AccountNumber":"6514095372","Balance":0,"Customers":[]}
+Info: Customer added to account: {"AccountNumber":"5832053436","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}]}
+Info: Customer added to account: {"AccountNumber":"1231037560","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}]}
+Info: Customer added to account: {"AccountNumber":"1231037560","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"},{"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00"}]}
+Info: CurrentAccount number 1234567890 is valid
+Error: CurrentAccount number 8888888888 is not valid
+Error: CurrentAccount number 12345 is not valid
+Info: SavingAccount number 1234567890 is valid
+Info: SavingAccount number 8888888888 is valid
+Error: SavingAccount number 12345 is not valid
+Info: New CreditCard created: {"Balance":0,"CardNumber":"94227473","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}}
+Info: New BankCard created: {"CardNumber":"70008699","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}}
+Info: New BankCard added to account {"BankCards":[{"CardNumber":"70008699","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}}],"AccountNumber":"5832053436","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}]}
+Error: Customer has no access to CurrentAccount, BankCard not added {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00"}
+Info: 100 deposited to account {"BankCards":[{"CardNumber":"70008699","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}}],"AccountNumber":"5832053436","Balance":100,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}]}
+Info: 80 widthdrawn from account {"BankCards":[{"CardNumber":"70008699","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}}],"AccountNumber":"5832053436","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}]}
+Error: CurrentAccount cannot be removed when balance is not 0: {"BankCards":[{"CardNumber":"70008699","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}}],"AccountNumber":"5832053436","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}]}
+Error: 30 cannot be widthdrawn from account {"BankCards":[{"CardNumber":"70008699","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}}],"AccountNumber":"5832053436","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}]}
+Info: 20 widthdrawn from account {"BankCards":[{"CardNumber":"70008699","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}}],"AccountNumber":"5832053436","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}]}
+Info: CurrentAccount removed: {"BankCards":[{"CardNumber":"70008699","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}}],"AccountNumber":"5832053436","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}]}
+Error: 20 cannot be widthdrawn from card {"Balance":0,"CardNumber":"94227473","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00"}}
+Info: New bank created
+Info: New customer created: {"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}
+Info: New customer created: {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2}
+Info: New customer created: {"Id":2,"Name":"User3","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":3}
+Info: New customer created: {"Id":3,"Name":"jack","PhoneNumber":"123","Birthday":"2020-10-10T00:00:00","Gender":1}
+Info: New CurrentAccount created {"BankCards":[],"AccountNumber":"7085247849","Balance":0,"Customers":[]}
+Info: New CurrentAccount created {"BankCards":[],"AccountNumber":"8820409074","Balance":0,"Customers":[]}
+Info: Customer added to account: {"AccountNumber":"7085247849","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}]}
+Info: Customer added to account: {"AccountNumber":"1235637669","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}]}
+Info: Customer added to account: {"AccountNumber":"1235637669","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1},{"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2}]}
+Info: CurrentAccount number 1234567890 is valid
+Error: CurrentAccount number 8888888888 is not valid
+Error: CurrentAccount number 12345 is not valid
+Info: SavingAccount number 1234567890 is valid
+Info: SavingAccount number 8888888888 is valid
+Error: SavingAccount number 12345 is not valid
+Info: New CreditCard created: {"Balance":0,"CardNumber":"19747889","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}}
+Info: New BankCard created: {"CardNumber":"55662172","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}}
+Info: New BankCard added to account {"BankCards":[{"CardNumber":"55662172","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}}],"AccountNumber":"7085247849","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}]}
+Error: Customer has no access to CurrentAccount, BankCard not added {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2}
+Info: 100 deposited to account {"BankCards":[{"CardNumber":"55662172","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}}],"AccountNumber":"7085247849","Balance":100,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}]}
+Info: 80 widthdrawn from account {"BankCards":[{"CardNumber":"55662172","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}}],"AccountNumber":"7085247849","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}]}
+Error: CurrentAccount cannot be removed when balance is not 0: {"BankCards":[{"CardNumber":"55662172","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}}],"AccountNumber":"7085247849","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}]}
+Error: 30 cannot be widthdrawn from account {"BankCards":[{"CardNumber":"55662172","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}}],"AccountNumber":"7085247849","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}]}
+Info: 20 widthdrawn from account {"BankCards":[{"CardNumber":"55662172","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}}],"AccountNumber":"7085247849","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}]}
+Info: CurrentAccount removed: {"BankCards":[{"CardNumber":"55662172","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}}],"AccountNumber":"7085247849","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}]}
+Error: 20 cannot be widthdrawn from card {"Balance":0,"CardNumber":"19747889","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}}
+Info: New bank created
+Info: New customer created: {"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}
+Info: New customer created: {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2}
+Info: New customer created: {"Id":2,"Name":"User3","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":3}
+Info: New bank created
+Info: New customer created: {"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}
+Info: New customer created: {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2}
+Info: New customer created: {"Id":2,"Name":"User3","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":3}
+Info: New customer created: {"Id":3,"Name":"sadf","PhoneNumber":"sadf","Birthday":"2020-10-10T00:00:00","Gender":2}
+Info: New CurrentAccount created {"BankCards":[],"AccountNumber":"8783830599","Balance":0,"Customers":[]}
+Info: New CurrentAccount created {"BankCards":[],"AccountNumber":"4111731749","Balance":0,"Customers":[]}
+Info: Customer added to account: {"AccountNumber":"8783830599","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}]}
+Info: Customer added to account: {"AccountNumber":"1232818796","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}]}
+Info: Customer added to account: {"AccountNumber":"1232818796","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1},{"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2}]}
+Info: CurrentAccount number 1234567890 is valid
+Error: CurrentAccount number 8888888888 is not valid
+Error: CurrentAccount number 12345 is not valid
+Info: SavingAccount number 1234567890 is valid
+Info: SavingAccount number 8888888888 is valid
+Error: SavingAccount number 12345 is not valid
+Info: New CreditCard created: {"Balance":0,"CardNumber":"71047154","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}}
+Info: New BankCard created: {"CardNumber":"49295895","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}}
+Info: New BankCard added to account {"BankCards":[{"CardNumber":"49295895","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}}],"AccountNumber":"8783830599","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}]}
+Error: Customer has no access to CurrentAccount, BankCard not added {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2}
+Info: 100 deposited to account {"BankCards":[{"CardNumber":"49295895","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}}],"AccountNumber":"8783830599","Balance":100,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}]}
+Info: 80 widthdrawn from account {"BankCards":[{"CardNumber":"49295895","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}}],"AccountNumber":"8783830599","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}]}
+Error: CurrentAccount cannot be removed when balance is not 0: {"BankCards":[{"CardNumber":"49295895","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}}],"AccountNumber":"8783830599","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}]}
+Error: 30 cannot be widthdrawn from account {"BankCards":[{"CardNumber":"49295895","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}}],"AccountNumber":"8783830599","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}]}
+Info: 20 widthdrawn from account {"BankCards":[{"CardNumber":"49295895","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}}],"AccountNumber":"8783830599","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}]}
+Info: CurrentAccount removed: {"BankCards":[{"CardNumber":"49295895","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}}],"AccountNumber":"8783830599","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}]}
+Error: 20 cannot be widthdrawn from card {"Balance":0,"CardNumber":"71047154","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1}}
+Info: New bank created
+Info: New customer created: {"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":0}
+Info: New customer created: {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":0}
+Info: New customer created: {"Id":2,"Name":"User3","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":3,"Contact":0}
+Info: New CurrentAccount created {"BankCards":[],"AccountNumber":"7534211107","Balance":0,"Customers":[]}
+Info: New CurrentAccount created {"BankCards":[],"AccountNumber":"3124086985","Balance":0,"Customers":[]}
+Info: Customer added to account: {"AccountNumber":"7534211107","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":1}]}
+Info: Customer added to account: {"AccountNumber":"1233082173","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":1}]}
+Info: Customer added to account: {"AccountNumber":"1233082173","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":1},{"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":0}]}
+Info: CurrentAccount number 1234567890 is valid
+Error: CurrentAccount number 8888888888 is not valid
+Error: CurrentAccount number 12345 is not valid
+Info: SavingAccount number 1234567890 is valid
+Info: SavingAccount number 8888888888 is valid
+Error: SavingAccount number 12345 is not valid
+Info: New CreditCard created: {"Balance":0,"CardNumber":"14199226","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":1}}
+Info: New BankCard created: {"CardNumber":"29825603","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":1}}
+Info: New BankCard added to account {"BankCards":[{"CardNumber":"29825603","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":1}}],"AccountNumber":"7534211107","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":1}]}
+Error: Customer has no access to CurrentAccount, BankCard not added {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":0}
+Info: 100 deposited to account {"BankCards":[{"CardNumber":"29825603","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":1}}],"AccountNumber":"7534211107","Balance":100,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":1}]}
+Info: 80 widthdrawn from account {"BankCards":[{"CardNumber":"29825603","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":1}}],"AccountNumber":"7534211107","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":1}]}
+Error: CurrentAccount cannot be removed when balance is not 0: {"BankCards":[{"CardNumber":"29825603","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":1}}],"AccountNumber":"7534211107","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":1}]}
+Error: 30 cannot be widthdrawn from account {"BankCards":[{"CardNumber":"29825603","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":1}}],"AccountNumber":"7534211107","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":1}]}
+Info: 20 widthdrawn from account {"BankCards":[{"CardNumber":"29825603","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":1}}],"AccountNumber":"7534211107","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":1}]}
+Info: CurrentAccount removed: {"BankCards":[{"CardNumber":"29825603","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":1}}],"AccountNumber":"7534211107","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":1}]}
+Error: 20 cannot be widthdrawn from card {"Balance":0,"CardNumber":"14199226","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":1}}
+Info: New bank created
+Info: New customer created: {"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":0}
+Info: New customer created: {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":0}
+Info: New customer created: {"Id":2,"Name":"User3","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":3,"Contact":0}
+Info: New CurrentAccount created {"BankCards":[],"AccountNumber":"9592887320","Balance":0,"Customers":[]}
+Info: New CurrentAccount created {"BankCards":[],"AccountNumber":"3753420046","Balance":0,"Customers":[]}
+Info: Customer added to account: {"AccountNumber":"9592887320","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: Customer added to account: {"AccountNumber":"1231921479","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: Customer added to account: {"AccountNumber":"1231921479","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2},{"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":4}]}
+Info: CurrentAccount number 1234567890 is valid
+Error: CurrentAccount number 8888888888 is not valid
+Error: CurrentAccount number 12345 is not valid
+Info: SavingAccount number 1234567890 is valid
+Info: SavingAccount number 8888888888 is valid
+Error: SavingAccount number 12345 is not valid
+Info: New CreditCard created: {"Balance":0,"CardNumber":"78928864","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Info: New BankCard created: {"CardNumber":"93511421","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Info: New BankCard added to account {"BankCards":[{"CardNumber":"93511421","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"AccountNumber":"9592887320","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: Customer has no access to CurrentAccount, BankCard not added {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":4}
+Info: 100 deposited to account {"BankCards":[{"CardNumber":"93511421","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"AccountNumber":"9592887320","Balance":100,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: 80 widthdrawn from account {"BankCards":[{"CardNumber":"93511421","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"AccountNumber":"9592887320","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: CurrentAccount cannot be removed when balance is not 0: {"BankCards":[{"CardNumber":"93511421","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"AccountNumber":"9592887320","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: 30 cannot be widthdrawn from account {"BankCards":[{"CardNumber":"93511421","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"AccountNumber":"9592887320","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: 20 widthdrawn from account {"BankCards":[{"CardNumber":"93511421","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"AccountNumber":"9592887320","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: CurrentAccount removed: {"BankCards":[{"CardNumber":"93511421","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"AccountNumber":"9592887320","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: 20 cannot be widthdrawn from card {"Balance":0,"CardNumber":"78928864","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Info: New bank created
+Info: New customer created: {"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":0}
+Info: New customer created: {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":0}
+Info: New customer created: {"Id":2,"Name":"User3","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":3,"Contact":0}
+Info: Contacting over phone: 
+Info: Title1: Dear Madam User1, Message1
+Info: Contacting via email: 
+Info: Title1: Dear Madam User1, Message1
+Info: Contacting using Whatsapp: 
+Info: Title1: Dear Mister User2, Message1
+Info: Contacting over phone: 
+Info: Title1: Dear User3, Message1
+Info: Contacting via email: 
+Info: Title1: Dear User3, Message1
+Info: Contacting using Whatsapp: 
+Info: Title1: Dear User3, Message1
+Info: Contacting via email: 
+Info: Title2: Dear Madam User1, Message2
+Info: Contacting using Whatsapp: 
+Info: Title2: Dear Mister User2, Message2
+Info: Contacting using Whatsapp: 
+Info: Title2: Dear User3, Message2
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"3674607788","Balance":0,"Customers":[]}
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"4007205051","Balance":0,"Customers":[]}
+Info: Customer added to account: {"AccountNumber":"3674607788","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: Customer added to account: {"AccountNumber":"1233318578","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: Customer added to account: {"AccountNumber":"1233318578","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2},{"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":4}]}
+Info: CurrentAccount number 1234567890 is valid
+Error: CurrentAccount number 8888888888 is not valid
+Error: CurrentAccount number 12345 is not valid
+Info: SavingAccount number 1234567890 is valid
+Info: SavingAccount number 8888888888 is valid
+Error: SavingAccount number 12345 is not valid
+Info: New CreditCard created: {"Balance":0,"Transactions":[],"CardNumber":"57232697","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Info: New BankCard created: {"CardNumber":"15171570","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Info: New BankCard added to account {"BankCards":[{"CardNumber":"15171570","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"3674607788","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: Customer has no access to CurrentAccount, BankCard not added {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":4}
+Info: 100 deposited to account {"BankCards":[{"CardNumber":"15171570","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"3674607788","Balance":100,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: 80 widthdrawn from account {"BankCards":[{"CardNumber":"15171570","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"3674607788","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: CurrentAccount cannot be removed when balance is not 0: {"BankCards":[{"CardNumber":"15171570","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"3674607788","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: 30 cannot be widthdrawn from account {"BankCards":[{"CardNumber":"15171570","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"3674607788","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: 20 widthdrawn from account {"BankCards":[{"CardNumber":"15171570","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"3674607788","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: CurrentAccount removed: {"BankCards":[{"CardNumber":"15171570","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"3674607788","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: 20 cannot be widthdrawn from card {"Balance":0,"Transactions":[],"CardNumber":"57232697","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Info: New bank created
+Info: New customer created: {"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":0}
+Info: New customer created: {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":0}
+Info: New customer created: {"Id":2,"Name":"User3","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":3,"Contact":0}
+Info: Contacting over phone: 
+Info: Title1: Dear Madam User1, Message1
+Info: Contacting via email: 
+Info: Title1: Dear Madam User1, Message1
+Info: Contacting using Whatsapp: 
+Info: Title1: Dear Mister User2, Message1
+Info: Contacting over phone: 
+Info: Title1: Dear User3, Message1
+Info: Contacting via email: 
+Info: Title1: Dear User3, Message1
+Info: Contacting using Whatsapp: 
+Info: Title1: Dear User3, Message1
+Info: Contacting via email: 
+Info: Title2: Dear Madam User1, Message2
+Info: Contacting using Whatsapp: 
+Info: Title2: Dear Mister User2, Message2
+Info: Contacting using Whatsapp: 
+Info: Title2: Dear User3, Message2
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"1467652926","Balance":0,"Customers":[]}
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"2702346380","Balance":0,"Customers":[]}
+Info: Customer added to account: {"AccountNumber":"1467652926","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: Customer added to account: {"AccountNumber":"1236874452","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: Customer added to account: {"AccountNumber":"1236874452","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2},{"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":4}]}
+Info: CurrentAccount number 1234567890 is valid
+Error: CurrentAccount number 8888888888 is not valid
+Error: CurrentAccount number 12345 is not valid
+Info: SavingAccount number 1234567890 is valid
+Info: SavingAccount number 8888888888 is valid
+Error: SavingAccount number 12345 is not valid
+Info: New CreditCard created: {"Balance":0,"Transactions":[],"CardNumber":"57820779","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Info: New BankCard created: {"CardNumber":"69252337","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Info: New BankCard added to account {"BankCards":[{"CardNumber":"69252337","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"1467652926","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: Customer has no access to CurrentAccount, BankCard not added {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":4}
+Info: 100 deposited to account {"BankCards":[{"CardNumber":"69252337","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"1467652926","Balance":100,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: 80 widthdrawn from account {"BankCards":[{"CardNumber":"69252337","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"1467652926","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: CurrentAccount cannot be removed when balance is not 0: {"BankCards":[{"CardNumber":"69252337","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"1467652926","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: 30 cannot be widthdrawn from account {"BankCards":[{"CardNumber":"69252337","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"1467652926","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: 20 widthdrawn from account {"BankCards":[{"CardNumber":"69252337","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"1467652926","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: CurrentAccount removed: {"BankCards":[{"CardNumber":"69252337","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"1467652926","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: 20 cannot be widthdrawn from card {"Balance":0,"Transactions":[],"CardNumber":"57820779","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Error: Insifficient Balance to transfer 100
+Error: Transaction from 1467652926 to 2702346380 of 100 NOT successful
+Info: New bank created
+Info: New customer created: {"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":0}
+Info: New customer created: {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":0}
+Info: New customer created: {"Id":2,"Name":"User3","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":3,"Contact":0}
+Info: Contacting over phone: 
+Info: Title1: Dear Madam User1, Message1
+Info: Contacting via email: 
+Info: Title1: Dear Madam User1, Message1
+Info: Contacting using Whatsapp: 
+Info: Title1: Dear Mister User2, Message1
+Info: Contacting over phone: 
+Info: Title1: Dear User3, Message1
+Info: Contacting via email: 
+Info: Title1: Dear User3, Message1
+Info: Contacting using Whatsapp: 
+Info: Title1: Dear User3, Message1
+Info: Contacting via email: 
+Info: Title2: Dear Madam User1, Message2
+Info: Contacting using Whatsapp: 
+Info: Title2: Dear Mister User2, Message2
+Info: Contacting using Whatsapp: 
+Info: Title2: Dear User3, Message2
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"4248287910","Balance":0,"Customers":[]}
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"0139343476","Balance":0,"Customers":[]}
+Info: Customer added to account: {"AccountNumber":"4248287910","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: Customer added to account: {"AccountNumber":"1237566409","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: Customer added to account: {"AccountNumber":"1237566409","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2},{"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":4}]}
+Info: CurrentAccount number 1234567890 is valid
+Error: CurrentAccount number 8888888888 is not valid
+Error: CurrentAccount number 12345 is not valid
+Info: SavingAccount number 1234567890 is valid
+Info: SavingAccount number 8888888888 is valid
+Error: SavingAccount number 12345 is not valid
+Info: New CreditCard created: {"Balance":0,"Transactions":[],"CardNumber":"17525968","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Info: New BankCard created: {"CardNumber":"05953899","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Info: New BankCard added to account {"BankCards":[{"CardNumber":"05953899","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"4248287910","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: Customer has no access to CurrentAccount, BankCard not added {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":4}
+Info: 100 deposited to account {"BankCards":[{"CardNumber":"05953899","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"4248287910","Balance":100,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: 80 widthdrawn from account {"BankCards":[{"CardNumber":"05953899","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"4248287910","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: CurrentAccount cannot be removed when balance is not 0: {"BankCards":[{"CardNumber":"05953899","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"4248287910","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: 30 cannot be widthdrawn from account {"BankCards":[{"CardNumber":"05953899","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"4248287910","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: 20 widthdrawn from account {"BankCards":[{"CardNumber":"05953899","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"4248287910","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: CurrentAccount removed: {"BankCards":[{"CardNumber":"05953899","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"4248287910","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: 20 cannot be widthdrawn from card {"Balance":0,"Transactions":[],"CardNumber":"17525968","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Error: Insifficient Balance to transfer 100
+Error: Transaction from 4248287910 to 0139343476 of 100 NOT successful
+Info: Transaction from 17525968 to 0139343476 of 100 successful
+Info: New bank created
+Info: New customer created: {"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":0}
+Info: New customer created: {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":0}
+Info: New customer created: {"Id":2,"Name":"User3","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":3,"Contact":0}
+Info: Contacting over phone: 
+Info: Title1: Dear Madam User1, Message1
+Info: Contacting via email: 
+Info: Title1: Dear Madam User1, Message1
+Info: Contacting using Whatsapp: 
+Info: Title1: Dear Mister User2, Message1
+Info: Contacting over phone: 
+Info: Title1: Dear User3, Message1
+Info: Contacting via email: 
+Info: Title1: Dear User3, Message1
+Info: Contacting using Whatsapp: 
+Info: Title1: Dear User3, Message1
+Info: Contacting via email: 
+Info: Title2: Dear Madam User1, Message2
+Info: Contacting using Whatsapp: 
+Info: Title2: Dear Mister User2, Message2
+Info: Contacting using Whatsapp: 
+Info: Title2: Dear User3, Message2
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"9413371408","Balance":0,"Customers":[]}
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"2646468134","Balance":0,"Customers":[]}
+Info: Customer added to account: {"AccountNumber":"9413371408","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: Customer added to account: {"AccountNumber":"1233294297","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: Customer added to account: {"AccountNumber":"1233294297","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2},{"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":4}]}
+Info: CurrentAccount number 1234567890 is valid
+Error: CurrentAccount number 8888888888 is not valid
+Error: CurrentAccount number 12345 is not valid
+Info: SavingAccount number 1234567890 is valid
+Info: SavingAccount number 8888888888 is valid
+Error: SavingAccount number 12345 is not valid
+Info: New CreditCard created: {"Balance":0,"Transactions":[],"CardNumber":"28699624","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Info: New BankCard created: {"CardNumber":"82591303","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Info: New BankCard added to account {"BankCards":[{"CardNumber":"82591303","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"9413371408","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: Customer has no access to CurrentAccount, BankCard not added {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":4}
+Info: 100 deposited to account {"BankCards":[{"CardNumber":"82591303","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"9413371408","Balance":100,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: 80 widthdrawn from account {"BankCards":[{"CardNumber":"82591303","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"9413371408","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: CurrentAccount cannot be removed when balance is not 0: {"BankCards":[{"CardNumber":"82591303","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"9413371408","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: 30 cannot be widthdrawn from account {"BankCards":[{"CardNumber":"82591303","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"9413371408","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: 20 widthdrawn from account {"BankCards":[{"CardNumber":"82591303","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"9413371408","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: CurrentAccount removed: {"BankCards":[{"CardNumber":"82591303","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"9413371408","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: 20 cannot be widthdrawn from card {"Balance":0,"Transactions":[],"CardNumber":"28699624","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Error: Insifficient Balance to transfer 100
+Error: Transaction from 9413371408 to 2646468134 of 100 NOT successful
+Info: Transaction from 28699624 (new balance -100) to 2646468134 (new balance 100) of 100 successful
+Info: New bank created
+Info: New customer created: {"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":0}
+Info: New customer created: {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":0}
+Info: New customer created: {"Id":2,"Name":"User3","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":3,"Contact":0}
+Info: Contacting over phone: 
+Info: Title1: Dear Madam User1, Message1
+Info: Contacting via email: 
+Info: Title1: Dear Madam User1, Message1
+Info: Contacting using Whatsapp: 
+Info: Title1: Dear Mister User2, Message1
+Info: Contacting over phone: 
+Info: Title1: Dear User3, Message1
+Info: Contacting via email: 
+Info: Title1: Dear User3, Message1
+Info: Contacting using Whatsapp: 
+Info: Title1: Dear User3, Message1
+Info: Contacting via email: 
+Info: Title2: Dear Madam User1, Message2
+Info: Contacting using Whatsapp: 
+Info: Title2: Dear Mister User2, Message2
+Info: Contacting using Whatsapp: 
+Info: Title2: Dear User3, Message2
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"6058796299","Balance":0,"Customers":[]}
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"8097002284","Balance":0,"Customers":[]}
+Info: Customer added to account: {"AccountNumber":"6058796299","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: Customer added to account: {"AccountNumber":"1238336838","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: Customer added to account: {"AccountNumber":"1238336838","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2},{"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":4}]}
+Info: CurrentAccount number 1234567890 is valid
+Error: CurrentAccount number 8888888888 is not valid
+Error: CurrentAccount number 12345 is not valid
+Info: SavingAccount number 1234567890 is valid
+Info: SavingAccount number 8888888888 is valid
+Error: SavingAccount number 12345 is not valid
+Info: New CreditCard created: {"Balance":0,"Transactions":[],"CardNumber":"65155704","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Info: New BankCard created: {"CardNumber":"06432928","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Info: New BankCard added to account {"BankCards":[{"CardNumber":"06432928","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"6058796299","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: Customer has no access to CurrentAccount, BankCard not added {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":4}
+Info: 100 deposited to account {"BankCards":[{"CardNumber":"06432928","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"6058796299","Balance":100,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: 80 widthdrawn from account {"BankCards":[{"CardNumber":"06432928","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"6058796299","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: CurrentAccount cannot be removed when balance is not 0: {"BankCards":[{"CardNumber":"06432928","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"6058796299","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: 30 cannot be widthdrawn from account {"BankCards":[{"CardNumber":"06432928","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"6058796299","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: 20 widthdrawn from account {"BankCards":[{"CardNumber":"06432928","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"6058796299","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: CurrentAccount removed: {"BankCards":[{"CardNumber":"06432928","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"6058796299","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: 20 cannot be widthdrawn from card {"Balance":0,"Transactions":[],"CardNumber":"65155704","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Error: Insifficient Balance to transfer 100
+Error: Transaction from 6058796299 to 8097002284 of 100 NOT successful
+Info: Transaction from 65155704 (new balance -100) to 8097002284 (new balance 100) of 100 successful
+Error: Insifficient Balance to transfer 50
+Error: Transaction from 6058796299 to 6058796299 of 50 NOT successful
+Info: New bank created
+Info: New customer created: {"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":0}
+Info: New customer created: {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":0}
+Info: New customer created: {"Id":2,"Name":"User3","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":3,"Contact":0}
+Info: Contacting over phone: 
+Info: Title1: Dear Madam User1, Message1
+Info: Contacting via email: 
+Info: Title1: Dear Madam User1, Message1
+Info: Contacting using Whatsapp: 
+Info: Title1: Dear Mister User2, Message1
+Info: Contacting over phone: 
+Info: Title1: Dear User3, Message1
+Info: Contacting via email: 
+Info: Title1: Dear User3, Message1
+Info: Contacting using Whatsapp: 
+Info: Title1: Dear User3, Message1
+Info: Contacting via email: 
+Info: Title2: Dear Madam User1, Message2
+Info: Contacting using Whatsapp: 
+Info: Title2: Dear Mister User2, Message2
+Info: Contacting using Whatsapp: 
+Info: Title2: Dear User3, Message2
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"0495917865","Balance":0,"Customers":[]}
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"1385321546","Balance":0,"Customers":[]}
+Info: Customer added to account: {"AccountNumber":"0495917865","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: Customer added to account: {"AccountNumber":"1234151234","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: Customer added to account: {"AccountNumber":"1234151234","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2},{"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":4}]}
+Info: CurrentAccount number 1234567890 is valid
+Error: CurrentAccount number 8888888888 is not valid
+Error: CurrentAccount number 12345 is not valid
+Info: SavingAccount number 1234567890 is valid
+Info: SavingAccount number 8888888888 is valid
+Error: SavingAccount number 12345 is not valid
+Info: New CreditCard created: {"Balance":0,"Transactions":[],"CardNumber":"87898305","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Info: New BankCard created: {"CardNumber":"28838487","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Info: New BankCard added to account {"BankCards":[{"CardNumber":"28838487","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"0495917865","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: Customer has no access to CurrentAccount, BankCard not added {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":4}
+Info: 100 deposited to account {"BankCards":[{"CardNumber":"28838487","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"0495917865","Balance":100,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: 80 widthdrawn from account {"BankCards":[{"CardNumber":"28838487","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"0495917865","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: CurrentAccount cannot be removed when balance is not 0: {"BankCards":[{"CardNumber":"28838487","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"0495917865","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: 30 cannot be widthdrawn from account {"BankCards":[{"CardNumber":"28838487","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"0495917865","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: 20 widthdrawn from account {"BankCards":[{"CardNumber":"28838487","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"0495917865","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: CurrentAccount removed: {"BankCards":[{"CardNumber":"28838487","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"0495917865","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: 20 cannot be widthdrawn from card {"Balance":0,"Transactions":[],"CardNumber":"87898305","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Error: Insifficient Balance to transfer 100
+Error: Transaction from 0495917865 to 1385321546 of 100 NOT successful
+Info: Transaction from 87898305 (new balance -100) to 1385321546 (new balance 100) of 100 successful
+Info: Transaction from 1385321546 (new balance 50) to 0495917865 (new balance 50) of 50 successful
+Info: New bank created
+Info: New customer created: {"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":0}
+Info: New customer created: {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":0}
+Info: New customer created: {"Id":2,"Name":"User3","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":3,"Contact":0}
+Info: Contacting over phone: 
+Info: Title1: Dear Madam User1, Message1
+Info: Contacting via email: 
+Info: Title1: Dear Madam User1, Message1
+Info: Contacting using Whatsapp: 
+Info: Title1: Dear Mister User2, Message1
+Info: Contacting over phone: 
+Info: Title1: Dear User3, Message1
+Info: Contacting via email: 
+Info: Title1: Dear User3, Message1
+Info: Contacting using Whatsapp: 
+Info: Title1: Dear User3, Message1
+Info: Contacting via email: 
+Info: Title2: Dear Madam User1, Message2
+Info: Contacting using Whatsapp: 
+Info: Title2: Dear Mister User2, Message2
+Info: Contacting using Whatsapp: 
+Info: Title2: Dear User3, Message2
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"0539632350","Balance":0,"Customers":[]}
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"3279275866","Balance":0,"Customers":[]}
+Info: Customer added to account: {"AccountNumber":"0539632350","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: Customer added to account: {"AccountNumber":"1238580812","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: Customer added to account: {"AccountNumber":"1238580812","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2},{"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":4}]}
+Info: CurrentAccount number 1234567890 is valid
+Error: CurrentAccount number 8888888888 is not valid
+Error: CurrentAccount number 12345 is not valid
+Info: SavingAccount number 1234567890 is valid
+Info: SavingAccount number 8888888888 is valid
+Error: SavingAccount number 12345 is not valid
+Info: New CreditCard created: {"Balance":0,"Transactions":[],"CardNumber":"56958406","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Info: New BankCard created: {"CardNumber":"42418047","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Info: New BankCard added to account {"BankCards":[{"CardNumber":"42418047","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"0539632350","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: Customer has no access to CurrentAccount, BankCard not added {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":4}
+Info: 100 deposited to account {"BankCards":[{"CardNumber":"42418047","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"0539632350","Balance":100,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: 80 widthdrawn from account {"BankCards":[{"CardNumber":"42418047","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"0539632350","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: CurrentAccount cannot be removed when balance is not 0: {"BankCards":[{"CardNumber":"42418047","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"0539632350","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: 30 cannot be widthdrawn from account {"BankCards":[{"CardNumber":"42418047","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"0539632350","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: 20 widthdrawn from account {"BankCards":[{"CardNumber":"42418047","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"0539632350","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: CurrentAccount removed: {"BankCards":[{"CardNumber":"42418047","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"0539632350","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: 20 cannot be widthdrawn from card {"Balance":0,"Transactions":[],"CardNumber":"56958406","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Error: Insifficient Balance to transfer 100
+Error: Transaction from 0539632350 to 3279275866 of 100 NOT successful
+Info: Transaction from 56958406 (new balance -100) to 3279275866 (new balance 100) of 100 successful
+Info: Transaction from 3279275866 (new balance 50) to 0539632350 (new balance 50) of 50 successful
+{"BankCards":[],"Transactions":[{},{}],"AccountNumber":"3279275866","Balance":50,"Customers":[]}
+Info: New bank created
+Info: New customer created: {"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":0}
+Info: New customer created: {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":0}
+Info: New customer created: {"Id":2,"Name":"User3","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":3,"Contact":0}
+Info: Contacting over phone: 
+Info: Title1: Dear Madam User1, Message1
+Info: Contacting via email: 
+Info: Title1: Dear Madam User1, Message1
+Info: Contacting using Whatsapp: 
+Info: Title1: Dear Mister User2, Message1
+Info: Contacting over phone: 
+Info: Title1: Dear User3, Message1
+Info: Contacting via email: 
+Info: Title1: Dear User3, Message1
+Info: Contacting using Whatsapp: 
+Info: Title1: Dear User3, Message1
+Info: Contacting via email: 
+Info: Title2: Dear Madam User1, Message2
+Info: Contacting using Whatsapp: 
+Info: Title2: Dear Mister User2, Message2
+Info: Contacting using Whatsapp: 
+Info: Title2: Dear User3, Message2
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"6310071687","Balance":0,"Customers":[]}
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"1766321417","Balance":0,"Customers":[]}
+Info: Customer added to account: {"AccountNumber":"6310071687","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: Customer added to account: {"AccountNumber":"1239362182","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: Customer added to account: {"AccountNumber":"1239362182","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2},{"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":4}]}
+Info: CurrentAccount number 1234567890 is valid
+Error: CurrentAccount number 8888888888 is not valid
+Error: CurrentAccount number 12345 is not valid
+Info: SavingAccount number 1234567890 is valid
+Info: SavingAccount number 8888888888 is valid
+Error: SavingAccount number 12345 is not valid
+Info: New CreditCard created: {"Balance":0,"Transactions":[],"CardNumber":"97185441","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Info: New BankCard created: {"CardNumber":"87988363","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Info: New BankCard added to account {"BankCards":[{"CardNumber":"87988363","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"6310071687","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: Customer has no access to CurrentAccount, BankCard not added {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":4}
+Info: 100 deposited to account {"BankCards":[{"CardNumber":"87988363","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"6310071687","Balance":100,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: 80 widthdrawn from account {"BankCards":[{"CardNumber":"87988363","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"6310071687","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: CurrentAccount cannot be removed when balance is not 0: {"BankCards":[{"CardNumber":"87988363","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"6310071687","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: 30 cannot be widthdrawn from account {"BankCards":[{"CardNumber":"87988363","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"6310071687","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: 20 widthdrawn from account {"BankCards":[{"CardNumber":"87988363","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"6310071687","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: CurrentAccount removed: {"BankCards":[{"CardNumber":"87988363","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"6310071687","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: 20 cannot be widthdrawn from card {"Balance":0,"Transactions":[],"CardNumber":"97185441","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Error: Insifficient Balance to transfer 100
+Error: Transaction from 6310071687 to 1766321417 of 100 NOT successful
+Info: Transaction from 97185441 (new balance -100) to 1766321417 (new balance 100) of 100 successful
+Info: Transaction from 1766321417 (new balance 50) to 6310071687 (new balance 50) of 50 successful
+Info: {"BankCards":[],"Transactions":[{},{}],"AccountNumber":"1766321417","Balance":50,"Customers":[]}
+Info: New bank created
+Info: New customer created: {"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":0}
+Info: New customer created: {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":0}
+Info: New customer created: {"Id":2,"Name":"User3","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":3,"Contact":0}
+Info: Contacting over phone: 
+Info: Title1: Dear Madam User1, Message1
+Info: Contacting via email: 
+Info: Title1: Dear Madam User1, Message1
+Info: Contacting using Whatsapp: 
+Info: Title1: Dear Mister User2, Message1
+Info: Contacting over phone: 
+Info: Title1: Dear User3, Message1
+Info: Contacting via email: 
+Info: Title1: Dear User3, Message1
+Info: Contacting using Whatsapp: 
+Info: Title1: Dear User3, Message1
+Info: Contacting via email: 
+Info: Title2: Dear Madam User1, Message2
+Info: Contacting using Whatsapp: 
+Info: Title2: Dear Mister User2, Message2
+Info: Contacting using Whatsapp: 
+Info: Title2: Dear User3, Message2
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"4931148279","Balance":0,"Customers":[]}
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"7809609804","Balance":0,"Customers":[]}
+Info: Customer added to account: {"AccountNumber":"4931148279","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: Customer added to account: {"AccountNumber":"1231524495","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: Customer added to account: {"AccountNumber":"1231524495","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2},{"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":4}]}
+Info: CurrentAccount number 1234567890 is valid
+Error: CurrentAccount number 8888888888 is not valid
+Error: CurrentAccount number 12345 is not valid
+Info: SavingAccount number 1234567890 is valid
+Info: SavingAccount number 8888888888 is valid
+Error: SavingAccount number 12345 is not valid
+Info: New CreditCard created: {"Balance":0,"Transactions":[],"CardNumber":"00422372","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Info: New BankCard created: {"CardNumber":"56307350","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Info: New BankCard added to account {"BankCards":[{"CardNumber":"56307350","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"4931148279","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: Customer has no access to CurrentAccount, BankCard not added {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":4}
+Info: 100 deposited to account {"BankCards":[{"CardNumber":"56307350","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"4931148279","Balance":100,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: 80 widthdrawn from account {"BankCards":[{"CardNumber":"56307350","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"4931148279","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: CurrentAccount cannot be removed when balance is not 0: {"BankCards":[{"CardNumber":"56307350","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"4931148279","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: 30 cannot be widthdrawn from account {"BankCards":[{"CardNumber":"56307350","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"4931148279","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: 20 widthdrawn from account {"BankCards":[{"CardNumber":"56307350","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"4931148279","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: CurrentAccount removed: {"BankCards":[{"CardNumber":"56307350","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"4931148279","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: 20 cannot be widthdrawn from card {"Balance":0,"Transactions":[],"CardNumber":"00422372","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Error: Insifficient Balance to transfer 100
+Error: Transaction from 4931148279 to 7809609804 of 100 NOT successful
+Info: Transaction from 00422372 (new balance -100) to 7809609804 (new balance 100) of 100 successful
+Info: Transaction from 7809609804 (new balance 50) to 4931148279 (new balance 50) of 50 successful
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"1952991577","Balance":0,"Customers":[]}
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"4438671885","Balance":0,"Customers":[]}
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"6799038075","Balance":0,"Customers":[]}
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"2165271167","Balance":0,"Customers":[]}
+Info: {"BankCards":[],"Transactions":[],"AccountNumber":"1952991577","Balance":0,"Customers":[]}
+Info: {"BankCards":[],"Transactions":[],"AccountNumber":"2165271167","Balance":0,"Customers":[]}
+Info: {"BankCards":[],"Transactions":[],"AccountNumber":"4438671885","Balance":0,"Customers":[]}
+Info: {"BankCards":[],"Transactions":[],"AccountNumber":"6799038075","Balance":0,"Customers":[]}
+Info: {"BankCards":[],"Transactions":[{},{}],"AccountNumber":"7809609804","Balance":50,"Customers":[]}
+Info: New bank created
+Info: New customer created: {"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":0}
+Info: New customer created: {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":0}
+Info: New customer created: {"Id":2,"Name":"User3","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":3,"Contact":0}
+Info: Contacting over phone: 
+Info: Title1: Dear Madam User1, Message1
+Info: Contacting via email: 
+Info: Title1: Dear Madam User1, Message1
+Info: Contacting using Whatsapp: 
+Info: Title1: Dear Mister User2, Message1
+Info: Contacting over phone: 
+Info: Title1: Dear User3, Message1
+Info: Contacting via email: 
+Info: Title1: Dear User3, Message1
+Info: Contacting using Whatsapp: 
+Info: Title1: Dear User3, Message1
+Info: Contacting via email: 
+Info: Title2: Dear Madam User1, Message2
+Info: Contacting using Whatsapp: 
+Info: Title2: Dear Mister User2, Message2
+Info: Contacting using Whatsapp: 
+Info: Title2: Dear User3, Message2
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"1157576046","Balance":0,"Customers":[]}
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"9673488463","Balance":0,"Customers":[]}
+Info: Customer added to account: {"AccountNumber":"1157576046","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: Customer added to account: {"AccountNumber":"1237901185","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: Customer added to account: {"AccountNumber":"1237901185","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2},{"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":4}]}
+Info: CurrentAccount number 1234567890 is valid
+Error: CurrentAccount number 8888888888 is not valid
+Error: CurrentAccount number 12345 is not valid
+Info: SavingAccount number 1234567890 is valid
+Info: SavingAccount number 8888888888 is valid
+Error: SavingAccount number 12345 is not valid
+Info: New CreditCard created: {"Balance":0,"Transactions":[],"CardNumber":"49392830","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Info: New BankCard created: {"CardNumber":"73783822","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Info: New BankCard added to account {"BankCards":[{"CardNumber":"73783822","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"1157576046","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: Customer has no access to CurrentAccount, BankCard not added {"Id":1,"Name":"User2","PhoneNumber":"987654","Birthday":"2010-10-10T00:00:00","Gender":2,"Contact":4}
+Info: 100 deposited to account {"BankCards":[{"CardNumber":"73783822","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"1157576046","Balance":100,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: 80 widthdrawn from account {"BankCards":[{"CardNumber":"73783822","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"1157576046","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: CurrentAccount cannot be removed when balance is not 0: {"BankCards":[{"CardNumber":"73783822","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"1157576046","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: 30 cannot be widthdrawn from account {"BankCards":[{"CardNumber":"73783822","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"1157576046","Balance":20,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: 20 widthdrawn from account {"BankCards":[{"CardNumber":"73783822","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"1157576046","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Info: CurrentAccount removed: {"BankCards":[{"CardNumber":"73783822","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}],"Transactions":[],"AccountNumber":"1157576046","Balance":0,"Customers":[{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}]}
+Error: 20 cannot be widthdrawn from card {"Balance":0,"Transactions":[],"CardNumber":"49392830","Customer":{"Id":0,"Name":"User1","PhoneNumber":"123456","Birthday":"2000-10-10T00:00:00","Gender":1,"Contact":2}}
+Error: Insifficient Balance to transfer 100
+Error: Transaction from 1157576046 to 9673488463 of 100 NOT successful
+Info: Transaction from 49392830 (new balance -100) to 9673488463 (new balance 100) of 100 successful
+Info: Transaction from 9673488463 (new balance 50) to 1157576046 (new balance 50) of 50 successful
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"9862563067","Balance":0,"Customers":[]}
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"2902496810","Balance":0,"Customers":[]}
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"3406017450","Balance":0,"Customers":[]}
+Info: New CurrentAccount created {"BankCards":[],"Transactions":[],"AccountNumber":"9662460644","Balance":0,"Customers":[]}
+Info: {"BankCards":[],"Transactions":[],"AccountNumber":"2902496810","Balance":0,"Customers":[]}
+Info: {"BankCards":[],"Transactions":[],"AccountNumber":"3406017450","Balance":0,"Customers":[]}
+Info: {"BankCards":[],"Transactions":[],"AccountNumber":"9662460644","Balance":0,"Customers":[]}
+Info: {"BankCards":[],"Transactions":[{},{}],"AccountNumber":"9673488463","Balance":50,"Customers":[]}
+Info: {"BankCards":[],"Transactions":[],"AccountNumber":"9862563067","Balance":0,"Customers":[]}
