@@ -1,0 +1,2 @@
+{"BankCards":[],"Transactions":[],"AccountNumber":"1397569059","Balance":0,"Customers":[]}
+{"BankCards":[],"Transactions":[],"AccountNumber":"4348428145","Balance":0,"Customers":[]}
